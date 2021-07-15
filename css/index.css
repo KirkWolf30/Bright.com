@@ -1,0 +1,395 @@
+body {
+  background-color: #e7e4e4;
+  scroll-behavior: smooth !important;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.navbar-toggler .line {
+  width: 30px;
+  height: 4px;
+  border-radius: 30px;
+  background-color: #fe4870;
+  margin-bottom: 3px;
+}
+
+.navbar-toggler .line2 {
+  width: 25px;
+}
+
+.btn {
+  width: 140px;
+  height: 45px;
+  border: 1px solid #e7e4e4;
+  color: #e7e4e4;
+  font-family: "Source Code Pro", monospace;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.nav-link:hover {
+  color: #fe4870;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+nav {
+  background-color: #011822;
+}
+
+nav a {
+  color: #e7e4e4;
+}
+
+nav .navbar-brand {
+  font-family: "Marck Script", cursive !important;
+  font-size: 34px;
+}
+
+nav .navbar-brand:hover {
+  color: #fe4870;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+nav .nav-link {
+  font-family: "Source Code Pro", monospace !important;
+  letter-spacing: 1px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.hero {
+  background-color: #011822;
+  color: #e7e4e4;
+}
+
+.hero .text .btn {
+  width: 140px;
+  height: 45px;
+  border: 1px solid #e7e4e4;
+  color: #e7e4e4;
+  font-family: "Source Code Pro", monospace;
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.hero .text .btn:hover {
+  border: 1px solid #fe4870;
+  color: #e7e4e4;
+}
+
+.hero .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+}
+
+.hero .title a {
+  text-decoration: none;
+  color: #fe4870;
+  cursor: default;
+}
+
+.imageWrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.backContainer {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-shadow: 0 0.2px 0.8px rgba(1, 18, 26, 0.059), 0 0.4px 1.9px rgba(1, 18, 26, 0.084), 0 0.9px 3.9px rgba(1, 18, 26, 0.106);
+          box-shadow: 0 0.2px 0.8px rgba(1, 18, 26, 0.059), 0 0.4px 1.9px rgba(1, 18, 26, 0.084), 0 0.9px 3.9px rgba(1, 18, 26, 0.106);
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-image: url(/Images/Bright.png);
+  background-color: #011822;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-filter: grayscale(60%);
+          filter: grayscale(60%);
+}
+
+.Connect i {
+  font-size: 25px;
+  color: #e7e4e4;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.Connect i:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  color: #fe4870;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.services h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+}
+
+.services .Experties .title {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.About h1, .Contact h1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 48px;
+  font-weight: 500;
+}
+
+.About .text, .Contact .text {
+  font-size: 20px;
+}
+
+.About .stacks .title, .Contact .stacks .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.About .card, .Contact .card {
+  border-radius: 5px !important;
+}
+
+.About .card-text, .Contact .card-text {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.DBMS .cardContainer, .Cloud .cardContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.DBMS .card, .Cloud .card {
+  width: 100%;
+  height: 250px;
+  border-radius: 5px !important;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.progress {
+  border-radius: 30px !important;
+  background-color: #ffff !important;
+}
+
+.progress .progress-bar {
+  border-radius: 30px Im !important;
+  background-color: #fe4870 !important;
+}
+
+.Contact .btn {
+  background-color: #fe4870;
+  color: #e7e4e4;
+}
+
+.Contact .btn:hover {
+  background-color: #220756;
+}
+
+.Contact .Connect i {
+  font-size: 30px;
+  color: #220756;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.Contact .Connect i:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  color: #fe4870;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+footer {
+  background-color: #220756;
+  color: #e7e4e4;
+}
+
+footer .main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .cv {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer .cv .btn {
+  border-radius: 30px !important;
+}
+
+footer .cv .btn:hover {
+  border: 1px solid #fe4870;
+  color: #fe4870 !important;
+}
+
+footer a {
+  color: #e7e4e4;
+}
+
+footer .navbar-brand {
+  font-family: "Marck Script", cursive !important;
+  font-size: 48px;
+}
+
+footer .navbar-brand:hover {
+  color: #fe4870;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+footer .nav-link {
+  font-family: "Montserrat", sans-serif !important;
+  font-weight: 200;
+  font-size: 17px;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+footer .active {
+  font-weight: 500;
+  color: #fe4870;
+  font-size: 20px;
+}
+
+footer .title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 24px;
+}
+
+footer .socailMedia {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+footer .message {
+  font-family: "Source Code Pro", monospace;
+}
+
+.project .title {
+  font-family: "Source Code Pro", monospace;
+  font-size: 48px;
+  letter-spacing: 2px;
+}
+
+.project .head {
+  font-family: "Source Code Pro", monospace;
+  font-size: 30px;
+  letter-spacing: 2px;
+  color: #fe4870;
+}
+
+.project .showcase a {
+  text-decoration: none;
+}
+
+.project .showcase img {
+  border-radius: 5px;
+}
+
+.project .showcase p {
+  font-family: "Montserrat", sans-serif;
+  color: #e7e4e4;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.project .showcase p:hover {
+  color: #fe4870;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+.dropdown-menu {
+  background-color: #e7e4e4 !important;
+}
+
+.dropdown-menu a {
+  color: #220756 !important;
+}
+
+.dropdown-menu a:hover {
+  background: none !important;
+  color: #fe4870 !important;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+/*# sourceMappingURL=index.css.map */
